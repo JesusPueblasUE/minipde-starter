@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff y herramientas de análisis
+.ruff_cache/
+.mypy_cache/
+
+# Empaquetado
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Resultados generados
+output/
+results/
+figures/
+
+# Archivos temporales
+*.tmp
+*.bak
+~$*
