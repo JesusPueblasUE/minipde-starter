@@ -37,5 +37,13 @@ en derivadas parciales, aplicando:
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+python -m pip install -e ".[dev]"
+python -m pytest -q
+
+## Ejemplos
+```powershell
+python examples/cancellation_demo.py
+python examples/derivative_convergence.py
+
 ### v0.2
 Operadores de diferencias finitas de segundo orden. Ejecute `python examples/derivative_convergence.py`.
