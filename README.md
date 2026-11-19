@@ -47,3 +47,6 @@ python examples/derivative_convergence.py
 
 ### v0.2
 Operadores de diferencias finitas de segundo orden. Ejecute `python examples/derivative_convergence.py`.
+
+### v0.3
+Poisson 1D con Dirichlet y solución manufacturada. Ejecute `python examples/poisson_1d_dirichlet.py`.
